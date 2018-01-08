@@ -10,2078 +10,452 @@
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+	<style>
+		th, td{
+			width: 16.5%;
+		}
+
+		td:first-child{
+			font-weight: bold;
+		}
+	</style>
+	
 </head>
-<body class="deep-purple lighten-5">
+<body class="">
 	<div class="container">
-		<header class="row col s12">
-			<h1>Dojo.Shrub</h1>
-			<!-- I want this h2 to be a rotating quote that is cheezy bad  -->
-			<h6>a signpost amidst the virtual wilds for ye dojo peeps</h6>
-			<nav class="">
-				<a href="#about" class="col s2 offset-s1">about</a><a href="" class="col s2">apprenti</a><a href="#dojo" class="col s2">dojo</a><a href="" class="col s2">olio</a><a href="" class="col s2">contact</a>
-			</nav>
+		<header class="row">
+			<section class="card col s12">
+				<div class="card-content">
+					<h1 class="">dojo.shrub</h1>
+					<!-- I want this h2 to be a rotating quote that is cheezy bad  -->
+					<h6>a signpost amidst the virtual wilds for ye dojo peeps</h6>
+							<!-- <a href="#" class="brand-logo">{% Dojo|Shrub %}</a> -->
+					<ul class="center hide-on-small-and-down tabs tabs-fixed-width">
+						<li class="tab"><a href="#about">about</a></li>
+						<li class="tab"><a href="">python</a></li>
+						<li class="tab"><a href="#dojo">dojo</a></li>
+						<li class="tab"><a href="">olio</a></li>
+						<li class="tab"><a href="">contact</a></li>
+					</ul>					
+				</div>
+			</section>
 		</header>
 		<main>
-			<section id="about" class="row col s12">
-				<h1>About</h1>
-				<p>This page serves as hub for miscellaneous pieces of content produced for the different projects i have worked on. Most of them will be related to instruction at Coding Dojo, and when possible i will just refer to the platform.</p>
-			</section>
-			<section id="apprenti" class="row col s12">
-				<h3>Apprenti</h3>
+			<section id="welcome">
+				<h3>About</h3>
 				<div class="divider"></div>
-				<!-- Python Calendar -->
 				<div class="row">
-					<div class="card col s12 m12 l8 offset-l2">
-						<div class="calendar">
-
-							<div class="card-content">
-								<h4>Python Calendar</h4>
-							</div>
-							<div class="card-tabs">
-								<ul class="tabs tabs-fixed-width">
+					<div class="card">
+						<div class="card-content">
+							<p>Howdy! Welcome to Dojo.Shrub, a small hub of things related to changing the world through teaching coding literacy ;) Most of this is supplemental content for Coding Dojo Students, but the big draw is the current curriculum calendar outlining where you should be if you are in my python stack. Below that you will find some resources geared towards students at different stages of their coding dojo experience. While this section is primarily just links to great existing content, below that you will find some content related to Dojo Side-Projects or me trying to synthesize some broader things into smaller, useful enough to apply, tidbits.</p>					
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- PYTHON :) -->
+			<section id="python">
+				<h3>Python Calendar</h3>
+				<div class="divider"></div>
+				<div class="row">
+					<div class="card col s12 m12 l12">
+						<div class="card-tabs">
+							<ul class="tabs tabs-fixed-width">
 								<li class="tab"><a href="#pyweek1" class="active">Week 1</a></li>
 								<li class="tab"><a href="#pyweek2">Week 2</a></li>
 								<li class="tab"><a href="#pyweek3">Week 3</a></li>
 								<li class="tab"><a href="#pyweek4">Week 4</a></li>
-								<li class="tab"><a href="#pyweek5">Week 5</a></li>
-								<li class="tab"><a href="#pyweek6">Week 6</a></li>
 							</ul>
 						</div>
 						<div class="card-content">
 							<div id="pyweek1">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Learn all of the things</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#pywk1mon">Monday</a></li>
-										<li class="tab"><a href="#pywk1tue">Tuesday</a></li>
-										<li class="tab"><a href="#pywk1wed">Wednesday</a></li>
-										<li class="tab"><a href="#pywk1thr">Thursday</a></li>
-										<li class="tab"><a href="#pywk1fri">Friday</a></li>
-									</ul>
+								<div class="card-title"> 
+									<p>Week Goal: <span> Learn about Python, OOP 101, MVC, & Flask, Oh Mi! </span><a href="./python/courseconcepts.md"> sounds crazy...</a></p>
 								</div>
 								<div class="card-content">
-									<div id="pywk1mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: C# Language basipy</p>
-													<p>Group Activity: Basic 13</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Platform assignmnet Puzzles</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk1tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture will be C# OOP 101</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-													<p>Demo: Puzzles</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-													<p>Deck of Cards</p>
-												</div>
-												<div class="collapsible-body"></div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk1wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: OOP II, Testing, LINQ</p>
-													<p>Group Activity: </p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-													<p>Code Review: D.o.C</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Platform Assignment: Terminal RPG Encounter</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk1thr">
-										<h1>Deck of Cards</h1>
-										<h1>Hackathon!!!!</h1>
-									</div>
-									<div id="pywk1fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Present D.o.C Hackathon</p>
-													<p>Intro to dotnet MVC</p>
-													<p>Demo Calling Card</p>
-													<p>Group Activity: RApi</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Time Display</p>
-												</div>
-											</li>
-										</ul>
-									</div>
+									<table class="striped">
+										<thead>
+											<tr>
+												<th></th>
+												<th>Monday</th>
+												<th>Tuesday</th>
+												<th>Wednesday</th>
+												<th>Thursday</th>
+												<th>Friday</th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<!-- time slot -->
+												<td>Algorithms</td>
+												<!-- mon -->
+												<td>Objects & Strings</td>
+												<!-- tue -->
+												<td>Linked Lists</td>
+												<!-- wed -->
+												<td>Linked Lists</td>
+												<!-- thr -->
+												<td>Linked Lists</td>
+												<!-- fri -->
+												<td>linked Lists</td>
+											</tr>
+											<tr>
+												<td>Lecture</td>
+												<td>Intro to Python Language</td>
+												<td>Intro to Python OOP</td>
+												<td>Intro to Flask</td>
+												<td>Intro to SQL: ERDs! + Tabular Data(Quickly into group exercises on table designins)</td>
+												<td>Intro to The whole enchilada</td>
+											</tr>
+											<tr>
+												<td>Group Activity</td>
+												<td>Basic 13</td>
+												<td>Deck of Cards</td>
+												<td>Guessing Game</td>
+												<td>Activity Day!</td>
+												<td>Basic 13</td>
+											</tr>
+											<tr>
+												<td>Lunch</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td>Lunch'n'Code</td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>Afternoon</td>
+												<!-- mon -->
+												<td></td>
+												<!-- tue -->
+												<td>
+													<p>[3:30]Lecture: Python, OOP, Web, & Me</p>
+													<p>[4:00]Demo: Something</p>
+												</td>
+												<!-- wed -->
+												<td>
+													<p></p>
+												</td>
+												<!-- thr -->
+												<td>
+													<p>[1:15]Lecture: SQL: Queries</p>
+													<p>[3:45]Demo: Ninja Gold</p>
+												</td>
+												<!-- fri -->
+												<td>
+													<p>[3:30]Quoting DOjo</p>
+												</td>
+											</tr>
+											<tr>
+												<!-- time slot -->
+												<td>End of Day</td>
+												<!-- mon -->
+												<td>Students & Instructors</td>
+												<!-- tue -->
+												<td>Deck of Cards</td>
+												<!-- wed -->
+												<td>NInja Gold</td>
+												<!-- thr -->
+												<td>Countries</td>
+												<!-- fri -->
+												<td>TO THE WALL!!!</td>
+											</tr>
+
+										</tbody>
+									</table>
 								</div>
 							</div>
 							<div id="pyweek2">
-								<div class="card-content"> 
-									<p>Week Goal: <span>Develop familiarity with .NET MVC</span></p>
+								<div class="card-title"> 
+									<p>Week Goal: <span> Learn about Python, OOP 101, MVC, & Flask, Oh Mi!</span><a href="">sounds crazy...</a></p>
 								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#pywk2mon">Monday</a></li>
-										<li class="tab"><a href="#pywk2tue">Tuesday</a></li>
-										<li class="tab"><a href="#pywk2wed">Wednesday</a></li>
-										<li class="tab"><a href="#pywk2thr">Thursday</a></li>
-										<li class="tab"><a href="#pywk2fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="pywk2mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Post Data + Stuff</p>
-													<p>Group Activity: Rock Paper Scissors</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>DojoDachi</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk2tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Connecting to DB + Stuff</p>
-													<p>Group Activity: PokeInfo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Testing Controllers</p>
-													<p>Code Review: DojoDachi</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Movie API</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk2wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Models</p>
-													<p>Group Activity: Form Submission</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Lecture: Testing + ViewModels</p>
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>LOGREG</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk2thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Advanced features: Partials?</p>
-													<p>Wall Hackathon</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>The Wall</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk2fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: ORMs & Dapper</p>
-													<p>Group Activity: Quoting Dojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Dojo League</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Dojo League</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+											<th>Monday</th>
+											<th>Tuesday</th>
+											<th>Wednesday</th>
+											<th>Thursday</th>
+											<th>Friday</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<!-- time slot -->
+											<td>Algorithms</td>
+											<!-- mon -->
+											<td>Queues</td>
+											<!-- tue -->
+											<td>Queues</td>
+											<!-- wed -->
+											<td>Stacks</td>
+											<!-- thr -->
+											<td>Stacks</td>
+											<!-- fri -->
+											<td>Whoa!</td>
+										</tr>
+										<tr>
+											<td>Lecture</td>
+											<td>Wall Lyfe!</td>
+											<td>Intro to Django</td>
+											<td>Intro to Django Forms</td>
+											<td>Intro to Connecting Django to a backend</td>
+											<td>Models</td>
+										</tr>
+										<tr>
+											<td>Group Activity</td>
+											<td>Open Lab!</td>
+											<td>Guessing Game</td>
+											<td>Rock Paper Scissors</td>
+											<td>Activity Day!</td>
+											<td>Basic 13</td>
+										</tr>
+										<tr>
+											<td>Lunch</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td>Lunch'n'Code</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Afternoon</td>
+											<!-- mon -->
+											<td>
+												<p>MegaStravaGanza Alan Does teh Wall. What is MVC?</p>
+											</td>
+											<!-- tue -->
+											<td>
+												<p>[3:30]Demo: Modular Django</p>
+											</td>
+											<!-- wed -->
+											<td>
+												<p></p>
+											</td>
+											<!-- thr -->
+											<td>
+												<p>[1:15]Lecture: Queries</p>
+												<p>[3:30]Demo: Ninja Gold</p>
+											</td>
+											<!-- fri -->
+											<td>
+												<p>[330]Quoting DOjo</p>
+											</td>
+										</tr>
+										<tr>
+											<!-- time slot -->
+											<td>End of Day</td>
+											<!-- mon -->
+											<td>Students & Instructors</td>
+											<!-- tue -->
+											<td>Deck of Cards</td>
+											<!-- wed -->
+											<td>NInja Gold</td>
+											<!-- thr -->
+											<td>Countries</td>
+											<!-- fri -->
+											<td>TO THE WALL!!!</td>
+										</tr>
+
+									</tbody>
+								</table>
 							</div>
 							<div id="pyweek3">
 								<div class="card-content"> 
-									<p>Week Goal: <span> Practice and BB Ready!</span></p>
+									<p>Week Goal: <span> Django's ORM, Built-in delights, deployment, and the BLACK BELT </span></p>
 								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#pywk3mon">Monday</a></li>
-										<li class="tab"><a href="#pywk3tue">Tuesday</a></li>
-										<li class="tab"><a href="#pywk3wed">Wednesday</a></li>
-										<li class="tab"><a href="#pywk3thr">Thursday</a></li>
-										<li class="tab"><a href="#pywk3fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="pywk3mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Entity Framework!</p>
-													<p>Group Activity: Quoting Dojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Wedding Planner</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk3tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: Code-first dbs</p>
-													<p>Group Activity: Quoting Dojo again!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>ORM-based WALL</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk3wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Deploys!</p>
-													<p>Group Activity: Deploy</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Belt Reviewer/Deploy a thing</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk3thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Review Lyfe</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab Lyfe</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Belt Reviewer(s)</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk3fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>TAKE THE BLACK BELT</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Finish Belt</p>
-													<p>De the stress</p>
-													<p></p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Finish/deploy BB & Reflect on it</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+											<th>Monday</th>
+											<th>Tuesday</th>
+											<th>Wednesday</th>
+											<th>Thursday</th>
+											<th>Friday</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<!-- time slot -->
+											<td>Algorithms</td>
+											<!-- mon -->
+											<td>Arrays II</td>
+											<!-- tue -->
+											<td>Arrays II</td>
+											<!-- wed -->
+											<td>Arrays II</td>
+											<!-- thr -->
+											<td>Arrays II</td>
+											<!-- fri -->
+											<td>Exam!</td>
+										</tr>
+										<tr>
+											<td>Lecture</td>
+											<td>ORM</td>
+											<td>ORM & Tricks</td>
+											<td>Deployment</td>
+											<td>Tricks</td>
+											<td>Exam!</td>
+										</tr>
+										<tr>
+											<td>Group Activity</td>
+											<td>Basic 13</td>
+											<td>Deck of Cards</td>
+											<td>Guessing Game</td>
+											<td>Basic 13</td>
+											<td>Exam!</td>
+										</tr>
+										<tr>
+											<td>Lunch</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td>Lunch'n'Code</td>
+											<td></td>
+											<td>Exam :(</td>
+										</tr>
+										<tr>
+											<td>Afternoon</td>
+											<!-- mon -->
+											<td></td>
+											<!-- tue -->
+											<td>
+												<p>[3:30]Lecture: Python, OOP, Web, & Me</p>
+												<p>[4:00]Demo: Something</p>
+											</td>
+											<!-- wed -->
+											<td>
+												<p></p>
+											</td>
+											<!-- thr -->
+											<td>
+												<p>[1:15]Lecture: Queries</p>
+												<p>[3:30]Demo: Ninja Gold</p>
+											</td>
+											<!-- fri -->
+											<td>
+												<p>Lunch, Exam Recap, Project Week Hype</p>
+											</td>
+										</tr>
+										<tr>
+											<!-- time slot -->
+											<td>End of Day</td>
+											<!-- mon -->
+											<td>Students & Instructors</td>
+											<!-- tue -->
+											<td>Deck of Cards</td>
+											<!-- wed -->
+											<td>NInja Gold</td>
+											<!-- thr -->
+											<td>Countries</td>
+											<!-- fri -->
+											<td>TO THE WALL!!!</td>
+										</tr>
+
+									</tbody>
+								</table>
 							</div>
 							<div id="pyweek4">
 								<div class="card-content"> 
-										<p>Week Goal: <span> What does the MS ecosystem let us do?</span></p>
-									</div>
-									<div class="card-tabs">
-										<ul class="tabs tabs-fixed-width">
-											<li class="tab"><a href="#pywk4mon">Monday</a></li>
-											<li class="tab"><a href="#pywk4tue">Tuesday</a></li>
-											<li class="tab"><a href="#pywk4wed">Wednesday</a></li>
-											<li class="tab"><a href="#pywk4thr">Thursday</a></li>
-											<li class="tab"><a href="#pywk4fri">Friday</a></li>
-										</ul>
-									</div>
-									<div class="card-content">
-										<div id="pywk4mon">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: Identity + Code First dbs</p>
-														<p>Group Activity: Log Reg</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Open Lab</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Forums</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="pywk4tue">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Exam Retakes</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: Testing</p>
-														<p>Algorithms: Sets!</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Beltified!</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="pywk4wed">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: Explore C#/.NET/APS.NET CORE</p>
-														<p>Group Activity: Learnus something</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Open Lab</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Group Assignments!</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="pywk4thr">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: XAMARIN!!!!</p>
-														<p>Group Activity: Rock Paper Scissors</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Open Lab</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Pong</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="pywk4fri">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Veterans Day/Armistice Day</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Veterans Day/Armistice Day</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Reflection</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
+									<p>Week Goal: <span> What does the MS ecosystem let us do?</span></p>
 								</div>
-							<div id="pyweek5">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Have all of the FUN!</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#pyk5mon">Monday</a></li>
-										<li class="tab"><a href="#pywk5tue">Tuesday</a></li>
-										<li class="tab"><a href="#pywk5wed">Wednesday</a></li>
-										<li class="tab"><a href="#pywk5thr">Thursday</a></li>
-										<li class="tab"><a href="#pywk5fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="pywk5mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>PROJECT WEEK/UNITY HACKATHON kickoff!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Progress & Learning</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk5tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>AM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>PM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Progress & Learns</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk5wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>AM Standup</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>PM Standup</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Progress & Learns</p>
-													</div>
-												</li>
-										</ul>
-									</div>
-									<div id="pywk5thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>AM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>PM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Progress & Learns</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk5fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="pyweek6">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Projects!</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#pywk6mon">Monday</a></li>
-										<li class="tab"><a href="#pywk6tue">Tuesday</a></li>
-										<li class="tab"><a href="#pywk6wed">Wednesday</a></li>
-										<li class="tab"><a href="#pywk6thr">Thursday</a></li>
-										<li class="tab"><a href="#pywk6fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="pywk6mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk6tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk6wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Presentations</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Introduction to Typescript/ES6/JS OOP</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="pywk6thr">
-										<h1>TURKEYS EVERYWHERE!!!!!!!!</h1>
-									</div>
-									<div id="pywk6fri">
-										<h1>DEALS DEALS DEALS</h1>
-									</div>
-								</div>
-							</div>
-						</div>
-						</div>
-					</div>
-				</div>
-				<!-- C SHARP CALENDAR -->
-				<div class="row">
-					<div class="card col s12 m12 l8 offset-l2">
-						<div class="calendar">
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+											<th>Monday</th>
+											<th>Tuesday</th>
+											<th>Wednesday</th>
+											<th>Thursday</th>
+											<th>Friday</th>
+										</tr>
+									</thead>
 
-							<div class="card-content">
-								<h4>C# Calendar</h4>
-							</div>
-							<div class="card-tabs">
-								<ul class="tabs tabs-fixed-width">
-								<li class="tab"><a href="#csweek1" class="active">Week 1</a></li>
-								<li class="tab"><a href="#csweek2">Week 2</a></li>
-								<li class="tab"><a href="#csweek3">Week 3</a></li>
-								<li class="tab"><a href="#csweek4">Week 4</a></li>
-								<li class="tab"><a href="#csweek5">Week 5</a></li>
-								<li class="tab"><a href="#csweek6">Week 6</a></li>
-							</ul>
-						</div>
-						<div class="card-content">
-							<div id="csweek1">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Learn all of the things</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#cswk1mon">Monday</a></li>
-										<li class="tab"><a href="#cswk1tue">Tuesday</a></li>
-										<li class="tab"><a href="#cswk1wed">Wednesday</a></li>
-										<li class="tab"><a href="#cswk1thr">Thursday</a></li>
-										<li class="tab"><a href="#cswk1fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="cswk1mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: C# Language basics</p>
-													<p>Group Activity: Basic 13</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Platform assignmnet Puzzles</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk1tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture will be C# OOP 101</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-													<p>Demo: Puzzles</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-													<p>Deck of Cards</p>
-												</div>
-												<div class="collapsible-body"></div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk1wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: OOP II, Testing, LINQ</p>
-													<p>Group Activity: </p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-													<p>Code Review: D.o.C</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Platform Assignment: Terminal RPG Encounter</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk1thr">
-										<h1>Deck of Cards</h1>
-										<h1>Hackathon!!!!</h1>
-									</div>
-									<div id="cswk1fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Present D.o.C Hackathon</p>
-													<p>Intro to dotnet MVC</p>
-													<p>Demo Calling Card</p>
-													<p>Group Activity: RApi</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Time Display</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="csweek2">
-								<div class="card-content"> 
-									<p>Week Goal: <span>Develop familiarity with .NET MVC</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#cswk2mon">Monday</a></li>
-										<li class="tab"><a href="#cswk2tue">Tuesday</a></li>
-										<li class="tab"><a href="#cswk2wed">Wednesday</a></li>
-										<li class="tab"><a href="#cswk2thr">Thursday</a></li>
-										<li class="tab"><a href="#cswk2fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="cswk2mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Post Data + Stuff</p>
-													<p>Group Activity: Rock Paper Scissors</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>DojoDachi</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk2tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Connecting to DB + Stuff</p>
-													<p>Group Activity: PokeInfo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Testing Controllers</p>
-													<p>Code Review: DojoDachi</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Movie API</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk2wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Models</p>
-													<p>Group Activity: Form Submission</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Lecture: Testing + ViewModels</p>
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>LOGREG</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk2thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Advanced features: Partials?</p>
-													<p>Wall Hackathon</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>The Wall</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk2fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: ORMs & Dapper</p>
-													<p>Group Activity: Quoting Dojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Dojo League</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Dojo League</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="csweek3">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Practice and BB Ready!</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#cswk3mon">Monday</a></li>
-										<li class="tab"><a href="#cswk3tue">Tuesday</a></li>
-										<li class="tab"><a href="#cswk3wed">Wednesday</a></li>
-										<li class="tab"><a href="#cswk3thr">Thursday</a></li>
-										<li class="tab"><a href="#cswk3fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="cswk3mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Entity Framework!</p>
-													<p>Group Activity: Quoting Dojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Wedding Planner</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk3tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: Code-first dbs</p>
-													<p>Group Activity: Quoting Dojo again!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>ORM-based WALL</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk3wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Deploys!</p>
-													<p>Group Activity: Deploy</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Belt Reviewer/Deploy a thing</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk3thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Review Lyfe</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab Lyfe</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Belt Reviewer(s)</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk3fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>TAKE THE BLACK BELT</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Finish Belt</p>
-													<p>De the stress</p>
-													<p></p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Finish/deploy BB & Reflect on it</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="csweek4">
-								<div class="card-content"> 
-										<p>Week Goal: <span> What does the MS ecosystem let us do?</span></p>
-									</div>
-									<div class="card-tabs">
-										<ul class="tabs tabs-fixed-width">
-											<li class="tab"><a href="#cswk4mon">Monday</a></li>
-											<li class="tab"><a href="#cswk4tue">Tuesday</a></li>
-											<li class="tab"><a href="#cswk4wed">Wednesday</a></li>
-											<li class="tab"><a href="#cswk4thr">Thursday</a></li>
-											<li class="tab"><a href="#cswk4fri">Friday</a></li>
-										</ul>
-									</div>
-									<div class="card-content">
-										<div id="cswk4mon">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: Identity + Code First dbs</p>
-														<p>Group Activity: Log Reg</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Open Lab</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Forums</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="cswk4tue">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Exam Retakes</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: Testing</p>
-														<p>Algorithms: Sets!</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Beltified!</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="cswk4wed">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: Explore C#/.NET/APS.NET CORE</p>
-														<p>Group Activity: Learnus something</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Open Lab</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Group Assignments!</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="cswk4thr">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Lecture: XAMARIN!!!!</p>
-														<p>Group Activity: Rock Paper Scissors</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Open Lab</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Pong</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<div id="cswk4fri">
-											<ul class="collapsible" data-collapsible="accordion">
-												<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>Veterans Day/Armistice Day</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>Veterans Day/Armistice Day</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Reflection</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							<div id="csweek5">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Have all of the FUN!</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#csk5mon">Monday</a></li>
-										<li class="tab"><a href="#cswk5tue">Tuesday</a></li>
-										<li class="tab"><a href="#cswk5wed">Wednesday</a></li>
-										<li class="tab"><a href="#cswk5thr">Thursday</a></li>
-										<li class="tab"><a href="#cswk5fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="cswk5mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>PROJECT WEEK/UNITY HACKATHON kickoff!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Progress & Learning</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk5tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>AM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>PM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Progress & Learns</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk5wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-													<div class="collapsible-header">A.M.</div>
-													<div class="collapsible-body">
-														<p>AM Standup</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">P.M.</div>
-													<div class="collapsible-body">
-														<p>PM Standup</p>
-													</div>
-												</li>
-												<li>
-													<div class="collapsible-header">E.o.D</div>
-													<div class="collapsible-body">
-														<p>Progress & Learns</p>
-													</div>
-												</li>
-										</ul>
-									</div>
-									<div id="cswk5thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>AM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>PM Standup</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Progress & Learns</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk5fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="csweek6">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Projects!</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#cswk6mon">Monday</a></li>
-										<li class="tab"><a href="#cswk6tue">Tuesday</a></li>
-										<li class="tab"><a href="#cswk6wed">Wednesday</a></li>
-										<li class="tab"><a href="#cswk6thr">Thursday</a></li>
-										<li class="tab"><a href="#cswk6fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="cswk6mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk6tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Project Week Standup!!!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk6wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Presentations</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Introduction to Typescript/ES6/JS OOP</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="cswk6thr">
-										<h1>TURKEYS EVERYWHERE!!!!!!!!</h1>
-									</div>
-									<div id="cswk6fri">
-										<h1>DEALS DEALS DEALS</h1>
-									</div>
-								</div>
-							</div>
-						</div>
-						</div>
-					</div>
-				</div>
-				<!-- Front End Calendar -->
-				<div class="row">
-					<div class="card col s12 m12 l8 offset-l2">
-						<div class="calendar">
+									<tbody>
+										<tr>
+											<!-- time slot -->
+											<td>Algorithms</td>
+											<!-- mon -->
+											<td>Linked Lists II</td>
+											<!-- tue -->
+											<td>Linked Lists II</td>
+											<!-- wed -->
+											<td>Linked Lists II</td>
+											<!-- thr -->
+											<td>Linked Lists II</td>
+											<!-- fri -->
+											<td>linked Lists II</td>
+										</tr>
+										<tr>
+											<td>AM Standup</td>
+											<td>Exam Retakes && Projects</td>
+											<td>Exam Fixings && Projects</td>
+											<td>Exam Retakes && Projects</td>
+											<td>Exam Fixings && projects</td>
+											<td>Exam Retakes && Last Minute Touches!</td>
+										</tr>
+										
+										<tr>
+											<td>Lunch</td>
+											<td></td>
+											<td>Lunch'n'Code</td>
+											<td></td>
+											<td>Lunch'n'Code</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Afternoon</td>
+											<!-- mon -->
+											<td></td>
+											<!-- tue -->
+											<td>
+												<p>[200]Lengthy introduction to alexa. Focus will be on using design patterns in python to enable more complicated interactions with less code!</p>
+											</td>
+											<!-- wed -->
+											<td>
+												<p></p>
+											</td>
+											<!-- thr -->
+											<td>
+												
+											</td>
+											<!-- fri -->
+											<td>
+												<p>Presentations</p>
+												<p>Graduation</p>
+											</td>
+										</tr>
+										<tr>
+											<!-- time slot -->
+											<td>End of Day</td>
+											<!-- mon -->
+											<td>Students & Instructors</td>
+											<!-- tue -->
+											<td>Deck of Cards</td>
+											<!-- wed -->
+											<td>NInja Gold</td>
+											<!-- thr -->
+											<td>Countries</td>
+											<!-- fri -->
+											<td>TO THE WALL!!!</td>
+										</tr>
 
-							<div class="card-content">
-								<h4>Javascript Calendar</h4>
-							</div>
-							<div class="card-tabs">
-								<ul class="tabs tabs-fixed-width">
-								<li class="tab"><a href="#jsweek1" class="active">Week 1</a></li>
-								<li class="tab"><a href="#jsweek2">Week 2</a></li>
-								<li class="tab"><a href="#jsweek3">Week 3</a></li>
-								<li class="tab"><a href="#jsweek4">Week 4</a></li>
-							</ul>
-						</div>
-						<div class="card-content">
-							<div id="jsweek1">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Pick up Express + Meet Angular</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#jswk1mon">Monday</a></li>
-										<li class="tab"><a href="#jswk1tue">Tuesday</a></li>
-										<li class="tab"><a href="#jswk1wed">Wednesday</a></li>
-										<li class="tab"><a href="#jswk1thr">Thursday</a></li>
-										<li class="tab"><a href="#jswk1fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="jswk1mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: Node & Express 101</p>
-													<p>Group Activity: Math + Content Modules</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Ninja Gold/Dojodachi</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk1tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: Sockets!</p>
-													<p>Group Activity: Epic Button Game & Rock, Paper, Scissors</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>NoSQL dbs!</p>
-													<p>Group Activity: Quoting Dojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-													<p>Multiplayer PacMan/Typescripted</p>
-												</div>
-												<div class="collapsible-body"></div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk1wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: Angular Components</p>
-													<p>Group Activity: </p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-													<p>Code Review: D.o.C</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Platform Assignment: Switchboard</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk1thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: Angular Architecture</p>
-													<p>Group Activity: Layout</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Platform Assignment: Quote Ranks</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk1fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">
-													<h5>A.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: Services</p>
-													<p>Group Activity: NinjaGold Service</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>P.M.</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Lecture: Routing</p>
-													<p>Group Activity: Dojo Weather Forecast/p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">
-													<h5>E.o.D</h5>
-												</div>
-												<div class="collapsible-body">
-													<p>Platform Assignment: Github score</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="jsweek2">
-								<div class="card-content"> 
-									<p>Week Goal: <span>Mo Js, Mo betta????</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#jswk2mon">Monday</a></li>
-										<li class="tab"><a href="#jswk2tue">Tuesday</a></li>
-										<li class="tab"><a href="#jswk2wed">Wednesday</a></li>
-										<li class="tab"><a href="#jswk2thr">Thursday</a></li>
-										<li class="tab"><a href="#jswk2fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="jswk2mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Angular + python & C# </p>
-													<p>Group Activity: C#/Python as APIs</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">P.M.</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>QuotingDojo</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk2tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: REDUX!</p>
-													<p>Group Activity: ??????</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Testing Controllers</p>
-													<p>Code Review: ????</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>??????</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk2wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: REACT 101</p>
-													<p>Group Activity: Components</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Lecture: Testing + ViewModels</p>
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>LOGREG</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk2thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: More React</p>
-													<p>Group activity: ?????</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>??????</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk2fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">AM</div>
-												<div class="collapsible-body">
-													<p>Lecture: REACT agin!</p>
-													<p>Group Activity: Quoting Dojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Dojo League</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>The Wall!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="jsweek3">
-								<div class="card-content"> 
-									<p>Week Goal: <span> PROJECT WEEKS WOOT!!!</span></p>
-								</div>
-								<div class="card-tabs">
-									<ul class="tabs tabs-fixed-width">
-										<li class="tab"><a href="#jswk3mon">Monday</a></li>
-										<li class="tab"><a href="#jswk3tue">Tuesday</a></li>
-										<li class="tab"><a href="#jswk3wed">Wednesday</a></li>
-										<li class="tab"><a href="#jswk3thr">Thursday</a></li>
-										<li class="tab"><a href="#jswk3fri">Friday</a></li>
-									</ul>
-								</div>
-								<div class="card-content">
-									<div id="jswk3mon">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk3tue">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Sockets</p>
-													<p>Group Activity: Chatroom</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Lecture: NoSQL dbs</p>
-													<p>Group Activity: QuotingDojo</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Ready For Angular! Typescripted!</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk3wed">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk3thr">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-									<div id="jswk3fri">
-										<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Open Lab</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div id="jsweek4">
-								<div class="card-content"> 
-										<p>Week Goal: <span> !!!!Finish Projects!!!!</span></p>
-									</div>
-									<div class="card-tabs">
-										<ul class="tabs tabs-fixed-width">
-											<li class="tab"><a href="#jswk4mon">Monday</a></li>
-											<li class="tab"><a href="#jswk4tue">Tuesday</a></li>
-											<li class="tab"><a href="#jswk4wed">Wednesday</a></li>
-											<li class="tab"><a href="#jswk4thr">Thursday</a></li>
-											<li class="tab"><a href="#jswk4fri">Friday</a></li>
-										</ul>
-									</div>
-									<div class="card-content">
-										<div id="jswk4mon">
-											<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Project</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-										</div>
-										<div id="jswk4tue">
-											<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Project</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-										</div>
-										<div id="jswk4wed">
-											<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Lecture: Misc. C# Topic</p>
-													<p>Group Activity: Stand-Up!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Project</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Stand-Up Meeting</p>
-												</div>
-											</li>
-										</ul>
-										</div>
-										<div id="jswk4thr">
-											<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Avoid Panic!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>PRESENTATIONS</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Done</p>
-												</div>
-											</li>
-										</ul>
-										</div>
-										<div id="jswk4fri">
-											<ul class="collapsible" data-collapsible="accordion">
-											<li>
-												<div class="collapsible-header">A.M.</div>
-												<div class="collapsible-body">
-													<p>Group Activity: Clean!</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">PM</div>
-												<div class="collapsible-body">
-													<p>Happy Hour</p>
-												</div>
-											</li>
-											<li>
-												<div class="collapsible-header">E.o.D</div>
-												<div class="collapsible-body">
-													<p>Chillax</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							
-						</div>
+									</tbody>
+								</table>
+							</div>							
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- DOJO LYFE!!!!!! -->
-			<section id="dojo" class="row col s12 l12">
+			<section id="dojo-resources" class="row">
 				<h3>Dojo</h3>
 				<div class="divider"></div>
 				<div class="col l4">
@@ -2133,25 +507,45 @@
 					</div>
 				</div>
 			</section>
-			<section id="olio" class="row col s12">
-				<h3>Olio</h3>
-				<div class="divider"></div>
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">The TDD Files</span>
+			<h3>Olio</h3>
+			<div class="divider"></div>
+			<section id="olio">
+				<div class="row">
+					<div class="col l4 m6 offset-m3 s12">
+						<div class="card">
+							<div class="card-image">
+								<img src="" alt="Testing Picture">
+							</div>
+							<div class="card-content">
+								<span class="card-title">Testing</span>
+								<a class="btn-floating halfway-fab right"><i class="material-icons">mode_edit</i></a>
+
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">The OOP Experience</span>
+					<div class="col l4 m6 offset-m3 s12">
+						<div class="card">
+							<div class="card-image">
+								<img src="" alt="Alexa Image">
+							</div>
+							<div class="card-content">
+								<span class="card-title">Alexa</span>
+								<a href="" class="btn-floating halfway-fab right"><i class="material-icons">speaker</i></a>
+							</div>
+						</div>							
 					</div>
-				</div>
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title">
-							<a href="https://gist.github.com/pinkshrub/653d6f173ff0f93ad29d9c97a64f09c3">Alexaness</a>
-						</span>
+					<div class="col l4 m6 offset-m3 s12">
+						<div class="card">
+							<div class="card-image">
+								<img src="" alt="OOP image">
+							</div>
+							<div class="card-content">
+								<span class="card-title">O.O.P.</span>
+								<a href=""><i class="material-icons">device_hub</i></a>
+							</div>
+						</div>							
 					</div>
+
 				</div>
 			</section>
 		</main>
