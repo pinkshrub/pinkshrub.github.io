@@ -1,0 +1,37 @@
+th, td{
+    width: 16.5%;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+
+/* HEADER STYLES */
+header h1{
+    display: inline-block;
+}
+
+header h6{
+    display: inline-block;
+    margin-left: 1%;
+    font-style: italic;
+}
+
+header nav{
+    position: relative;
+}
+
+nav a{
+    width: 7%;
+}
+
+nav a{
+     margin-left: 1%;
+}
+
+nav a:last-of-type{
+    position: absolute;
+    right: 0%;
+}
+

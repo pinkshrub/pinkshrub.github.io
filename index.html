@@ -6,70 +6,59 @@
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	<!-- grab custom css -->
+	<link type="text/css" rel="stylesheet" href="./dojo.css" media="screen, projection">
 
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-	<style>
-		th, td{
-			width: 16.5%;
-		}
-
-		td:first-child{
-			font-weight: bold;
-		}
-	</style>
 	
 </head>
 <body class="">
 	<div class="container">
 		<header class="row">
-			<section class="card col s12">
-				<div class="card-content">
-					<h1 class="">dojo.shrub</h1>
-					<!-- I want this h2 to be a rotating quote that is cheezy bad  -->
-					<h6>a signpost amidst the virtual wilds for ye dojo peeps</h6>
-							<!-- <a href="#" class="brand-logo">{% Dojo|Shrub %}</a> -->
-					<ul class="center hide-on-small-and-down tabs tabs-fixed-width">
-						<li class="tab"><a href="#about">about</a></li>
-						<li class="tab"><a href="">python</a></li>
-						<li class="tab"><a href="#dojo">dojo</a></li>
-						<li class="tab"><a href="">olio</a></li>
-						<li class="tab"><a href="">contact</a></li>
-					</ul>					
-				</div>
-			</section>
+			<h1 class="">dojo.shrub</h1>
+				<!-- I want this h2 to be a rotating quote that is cheezy bad  -->
+			<h6>Resources and thoughts for dojo-folk</h6>
+					<!-- <a href="#" class="brand-logo">{% Dojo|Shrub %}</a> -->
+			<nav class="blue">
+				<a href="#about">about</a>
+				<a href="#calendar">mean</a>
+				<a href="#dojo-resources">dojo</a>
+				<a href="#olio">olio</a>
+				<a href="#footer">contact</a>
+			</nav>					
 		</header>
 		<main>
 			<section id="welcome">
-				<h3>About</h3>
+				<h3 id="about">About</h3>
 				<div class="divider"></div>
 				<div class="row">
 					<div class="card">
 						<div class="card-content">
-							<p>Howdy! Welcome to Dojo.Shrub, a small hub of things related to changing the world through teaching coding literacy ;) Most of this is supplemental content for Coding Dojo Students, but the big draw is the current curriculum calendar outlining where you should be if you are in my python stack. Below that you will find some resources geared towards students at different stages of their coding dojo experience. While this section is primarily just links to great existing content, below that you will find some content related to Dojo Side-Projects or me trying to synthesize some broader things into smaller, useful enough to apply, tidbits.</p>					
+							<p>Howdy! Welcome to Dojo.Shrub, a small hub of resources for those interested in the dojo life. This is one of the hubs in the larger shrubwork, and it is focused on offering advice, tips, and information for students considering, taking, or having finished Coding Dojo's curriculum. You'll find a calendar for the current stack that I am teaching, outlining relevant details. In addition to the calendar, a collection of links for those that are preparing for the dojo, currently going through the program, or have recently graduated is available. These are mostly articles and resources to 3rd party apps that many have found helpful. Lastly, there are some topics that are frequently brought up at dojo but not covered too in-depth. You can find some thoughts from me about them in the Olio section. Last but not least, if you're here for some contact info you'll find that at the bottom. Thanks!</p>					
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- PYTHON :) -->
-			<section id="python">
-				<h3>Python Calendar</h3>
+			<section id="calendar">
+				<h3>MEAN Calendar</h3>
 				<div class="divider"></div>
 				<div class="row">
 					<div class="card col s12 m12 l12">
 						<div class="card-tabs">
 							<ul class="tabs tabs-fixed-width">
-								<li class="tab"><a href="#pyweek1" class="active">Week 1</a></li>
-								<li class="tab"><a href="#pyweek2">Week 2</a></li>
-								<li class="tab"><a href="#pyweek3">Week 3</a></li>
-								<li class="tab"><a href="#pyweek4">Week 4</a></li>
+								<li class="tab"><a href="#meanweek1" class="active">Week 1</a></li>
+								<li class="tab"><a href="#meanweek2">Week 2</a></li>
+								<li class="tab"><a href="#meanweek3">Week 3</a></li>
+								<li class="tab"><a href="#meanweek4">Week 4</a></li>
 							</ul>
 						</div>
 						<div class="card-content">
-							<div id="pyweek1">
+							<div id="meanweek1">
 								<div class="card-title"> 
-									<p>Week Goal: <span> Learn about Python, OOP 101, MVC, & Flask, Oh Mi! </span><a href="https://github.com/pinkshrub/pinkshrub.github.io/blob/master/python/courseconcepts.md"> sounds crazy...</a></p>
+									<p>Week Goal: <span>Learn about JavaScript, Running JS in/out of browser, and a JS framework for web dev</span></p>
 								</div>
 								<div class="card-content">
 									<table class="striped">
@@ -83,44 +72,59 @@
 												<th>Friday</th>
 											</tr>
 										</thead>
-
+			
 										<tbody>
 											<tr>
 												<!-- time slot -->
 												<td>Algorithms</td>
 												<!-- mon -->
-												<td>Objects & Strings</td>
+												<td>
+													<p>Stack 2: Linked Lists II</p>
+													<p>Stack 3: Sorts</p>
+												</td>
 												<!-- tue -->
-												<td>Linked Lists</td>
+												<td>
+													<p>Stack 2: Linked Lists II</p>
+													<p>Stack 3: Sorts</p>
+												</td>
 												<!-- wed -->
-												<td>Linked Lists</td>
+												<td>
+													<p>Stack 2: Linked Lists II</p>
+													<p>Stack 3: Sorts</p>
+												</td>
 												<!-- thr -->
-												<td>Linked Lists</td>
+												<td>
+													<p>Stack 2: Linked Lists II</p>
+													<p>Stack 3: Sorts</p>
+												</td>
 												<!-- fri -->
-												<td>linked Lists</td>
+												<td>
+													<p>Stack 2: Linked Lists II</p>
+													<p>Stack 3: Sorts</p>
+												</td>
 											</tr>
 											<tr>
 												<td>Lecture</td>
-												<td>Intro to Python Language</td>
-												<td>Intro to Python OOP</td>
-												<td>Intro to Flask</td>
-												<td>Intro to SQL: ERDs! + Tabular Data(Quickly into group exercises on table designins)</td>
-												<td>Intro to The whole enchilada</td>
+												<td>JavaScript Fundamentals</td>
+												<td>JavaScript OOP</td>
+												<td>Node-troduction</td>
+												<td>Express 101</td>
+												<td>Sockets 101</td>
 											</tr>
 											<tr>
 												<td>Group Activity</td>
-												<td>Basic 13</td>
+												<td>JS DOM II</td>
 												<td>Deck of Cards</td>
-												<td>Guessing Game</td>
-												<td>Activity Day!</td>
-												<td>Basic 13</td>
+												<td>Cars&Cats</td>
+												<td>Counter planning</td>
+												<td>Epic Button Game</td>
 											</tr>
 											<tr>
 												<td>Lunch</td>
 												<td></td>
+												<td>Lunch&Learn: Functions</td>
 												<td></td>
-												<td></td>
-												<td>Lunch'n'Code</td>
+												<td>Lunch&Learn: Arrays&Strings</td>
 												<td></td>
 												<td></td>
 											</tr>
@@ -129,46 +133,38 @@
 												<!-- mon -->
 												<td></td>
 												<!-- tue -->
-												<td>
-													<p>[3:30]Lecture: Python, OOP, Web, & Me</p>
-													<p>[4:00]Demo: Something</p>
-												</td>
+												<td></td>
 												<!-- wed -->
-												<td>
-													<p></p>
-												</td>
+												<td></td>
 												<!-- thr -->
-												<td>
-													<p>[1:15]Lecture: SQL: Queries</p>
-													<p>[3:45]Demo: Ninja Gold</p>
-												</td>
+												<td></td>
 												<!-- fri -->
 												<td>
-													<p>[3:30]Quoting DOjo</p>
+													<p>Hackathon</p>
 												</td>
 											</tr>
 											<tr>
 												<!-- time slot -->
 												<td>End of Day</td>
 												<!-- mon -->
-												<td>Students & Instructors</td>
+												<td>JS Hoisting</td>
 												<!-- tue -->
 												<td>Deck of Cards</td>
 												<!-- wed -->
-												<td>NInja Gold</td>
+												<td>Math Module</td>
 												<!-- thr -->
-												<td>Countries</td>
+												<td>Survey Form</td>
 												<!-- fri -->
-												<td>TO THE WALL!!!</td>
+												<td>Chatroom</td>
 											</tr>
-
+			
 										</tbody>
 									</table>
 								</div>
 							</div>
-							<div id="pyweek2">
+							<div id="meanweek2">
 								<div class="card-title"> 
-									<p>Week Goal: <span> Learn about Python, OOP 101, MVC, & Flask, Oh Mi!</span><a href="">sounds crazy...</a></p>
+									<p>Week Goal: <span>Data persistence & ANGULAR!!!</span></p>
 								</div>
 								<table>
 									<thead>
@@ -181,92 +177,96 @@
 											<th>Friday</th>
 										</tr>
 									</thead>
-
+			
 									<tbody>
 										<tr>
 											<!-- time slot -->
 											<td>Algorithms</td>
 											<!-- mon -->
-											<td>No Class</td>
+											<td>
+												<p>Stack 2: Recursion</p>
+												<p>Stack 3: Sets'n'Stuff</p>
+											</td>
 											<!-- tue -->
-											<td>Queues</td>
+											<td>
+												<p>Stack 2: Recursion</p>
+												<p>Stack 3: Sets'n'Stuff</p>
+											</td>
 											<!-- wed -->
-											<td>Stacks</td>
+											<td>
+												<p>Stack 2: Recursion</p>
+												<p>Stack 3: Priority Queues</p>
+											</td>
 											<!-- thr -->
-											<td>Stacks</td>
+											<td>
+												<p>Stack 2: Recursion</p>
+												<p>Stack 3: Heaps</p>
+											</td>
 											<!-- fri -->
-											<td>Whoa!</td>
+											<td>
+												<p>Stack 2: Recursion</p>
+												<p>Stack 3: Heaps</p>
+											</td>
 										</tr>
 										<tr>
 											<td>Lecture</td>
-											<td>No Class</td>
-											<td>Intro to Django</td>
-											<td>Intro to Django Forms</td>
-											<td>Intro to Connecting Django to a backend</td>
-											<td>Models</td>
+											<td>Mongo</td>
+											<td>Mongoose</td>
+											<td>Angular Intro</td>
+											<td>Angular Components & Services</td>
+											<td>Angular Navigation</td>
 										</tr>
 										<tr>
 											<td>Group Activity</td>
-											<td>No Class</td>
-											<td>Guessing Game</td>
-											<td>Rock Paper Scissors</td>
+											<td>Intro to MongoDB</td>
+											<td>Mongoose DB</td>
+											<td>Restful Tasks API</td>
 											<td>Activity Day!</td>
-											<td>Users assignment</td>
+											<td>Navigationing About</td>
 										</tr>
 										<tr>
 											<td>Lunch</td>
 											<td></td>
+											<td>Lunch'n'Code: Objects</td>
 											<td></td>
-											<td></td>
-											<td>Lunch'n'Code</td>
+											<td>Lunch'n'Code: Linked Lists</td>
 											<td></td>
 											<td></td>
 										</tr>
 										<tr>
 											<td>Afternoon</td>
 											<!-- mon -->
-											<td>
-												<p>No Class :(</p>
-											</td>
+											<td></td>
 											<!-- tue -->
-											<td>
-												<p>[3:30]Demo: Modular Django</p>
-											</td>
+											<td></td>
 											<!-- wed -->
-											<td>
-												<p></p>
-											</td>
+											<td></td>
 											<!-- thr -->
-											<td>
-												<p>[1:15]Lecture: Queries</p>
-												<p>[3:30]Demo: Ninja Gold</p>
-											</td>
+											<td></td>
 											<!-- fri -->
-											<td>
-												<p>[330]Quoting DOjo</p>
-											</td>
+											<td></td>
 										</tr>
 										<tr>
 											<!-- time slot -->
 											<td>End of Day</td>
 											<!-- mon -->
-											<td>The Wall</td>
+											<td>Intro to MongoDB</td>
 											<!-- tue -->
-											<td>Deck of Cards</td>
+											<td>1955 API</td>
 											<!-- wed -->
-											<td>NInja Gold</td>
+											<td>Restful Tasks Angularized</td>
 											<!-- thr -->
-											<td>Countries</td>
+											<td>Restful CRUD</td>
 											<!-- fri -->
-											<td>TO THE WALL!!!</td>
+											<td>Quote Ranks</td>
 										</tr>
-
+			
 									</tbody>
 								</table>
 							</div>
-							<div id="pyweek3">
-								<div class="card-content"> 
-									<p>Week Goal: <span> Django's ORM, Built-in delights, deployment, and the BLACK BELT </span></p>
+							<div id="meanweek3">
+								<div class="card-title"> 
+									<p>Week Goal: <span> Full MEAN integration, Deployment, and Black Beltzz </span></p>
 								</div>
 								<table>
 									<thead>
@@ -279,44 +279,56 @@
 											<th>Friday</th>
 										</tr>
 									</thead>
-
+			
 									<tbody>
 										<tr>
 											<!-- time slot -->
 											<td>Algorithms</td>
 											<!-- mon -->
-											<td>Arrays II</td>
+											<td>
+												<p>Stack 2: Strings II</p>
+												<p>Stack 3: Hash Tables</p>
+											</td>
 											<!-- tue -->
-											<td>Arrays II</td>
+											<td>
+												<p>Stack 2: Strings II</p>
+												<p>Stack 3: Hash Tables</p>
+											</td>
 											<!-- wed -->
-											<td>Arrays II</td>
+											<td>
+												<p>Stack 2: Strings II</p>
+												<p>Stack 3: Tries</p>
+											</td>
 											<!-- thr -->
-											<td>Arrays II</td>
+											<td>
+												<p>Stack 2: Strings II</p>
+												<p>Stack 3: Tries</p>
+											</td>
 											<!-- fri -->
 											<td>Exam!</td>
 										</tr>
 										<tr>
 											<td>Lecture</td>
-											<td>ORM</td>
-											<td>ORM & Tricks</td>
+											<td>MEAN integration</td>
+											<td>MEAN thoughts</td>
 											<td>Deployment</td>
-											<td>Tricks</td>
+											<td>Mo' mean thoughts</td>
 											<td>Exam!</td>
 										</tr>
 										<tr>
 											<td>Group Activity</td>
-											<td>Worlds</td>
-											<td>Quoting Dojo</td>
+											<td>?????</td>
+											<td>?????</td>
 											<td>Deploys!</td>
-											<td>Practice yo!</td>
+											<td>?????</td>
 											<td>Exam!</td>
 										</tr>
 										<tr>
 											<td>Lunch</td>
 											<td></td>
-											<td></td>
-											<td></td>
 											<td>Lunch'n'Code</td>
+											<td></td>
+											<td></td>
 											<td><p>Exam :D</p></td>
 										</tr>
 										<tr>
@@ -324,45 +336,35 @@
 											<!-- mon -->
 											<td></td>
 											<!-- tue -->
-											<td>
-												<p>[3:30]Lecture: Python, OOP, Web, & Me</p>
-												<p>[4:00]Demo: Something</p>
-											</td>
+											<td></td>
 											<!-- wed -->
-											<td>
-												<p></p>
-											</td>
+											<td></td>
 											<!-- thr -->
-											<td>
-												<p>[1:15]Lecture: Queries</p>
-												<p>[3:30]Demo: Ninja Gold</p>
-											</td>
+											<td></td>
 											<!-- fri -->
-											<td>
-												<p>Lunch, Exam Recap, Project Week Hype</p>
-											</td>
+											<td></td>
 										</tr>
 										<tr>
 											<!-- time slot -->
 											<td>End of Day</td>
 											<!-- mon -->
-											<td>Students & Instructors</td>
+											<td>Quote Ranks</td>
 											<!-- tue -->
-											<td>Deck of Cards</td>
+											<td>Team Manager</td>
 											<!-- wed -->
-											<td>NInja Gold</td>
+											<td>Deployed</td>
 											<!-- thr -->
-											<td>Countries</td>
+											<td>Bicycle Market</td>
 											<!-- fri -->
-											<td>TO THE WALL!!!</td>
+											<td>Black Belt</td>
 										</tr>
-
+			
 									</tbody>
 								</table>
 							</div>
-							<div id="pyweek4">
-								<div class="card-content"> 
-									<p>Week Goal: <span> What does the MS ecosystem let us do?</span></p>
+							<div id="meanweek4">
+								<div class="card-title"> 
+									<p>Week Goal: <span> Project Week and Retakes</span></p>
 								</div>
 								<table>
 									<thead>
@@ -375,29 +377,44 @@
 											<th>Friday</th>
 										</tr>
 									</thead>
-
+			
 									<tbody>
 										<tr>
 											<!-- time slot -->
 											<td>Algorithms</td>
 											<!-- mon -->
-											<td>Linked Lists II</td>
+											<td>
+												<p>Stack 2: Trees</p>
+												<p>Stack 3: Graphs</p>
+											</td>
 											<!-- tue -->
-											<td>Linked Lists II</td>
+											<td>
+												<p>Stack 2: Trees</p>
+												<p>Stack 3: Graphs</p>
+											</td>
 											<!-- wed -->
-											<td>Linked Lists II</td>
+											<td>
+												<p>Stack 2: Trees</p>
+												<p>Stack 3: Graphs</p>
+											</td>
 											<!-- thr -->
-											<td>Blue Belt Exams</td>
+											<td>
+												<p>Stack 2: Trees</p>
+												<p>Stack 3: Graphs</p>
+											</td>
 											<!-- fri -->
-											<td>linked Lists II</td>
+											<td>
+												<p>Stack 2: Trees</p>
+												<p>Stack 3: Graphs</p>
+											</td>
 										</tr>
 										<tr>
 											<td>AM Standup</td>
-											<td>Exam Retakes && Projects</td>
 											<td>Exam Fixings && Projects</td>
 											<td>Exam Retakes && Projects</td>
 											<td>Exam Fixings && projects</td>
-											<td>Exam Retakes && Last Minute Touches!</td>
+											<td>Exam Retakes && Projects</td>
+											<td>Last Minute Touches!</td>
 										</tr>
 										
 										<tr>
@@ -414,17 +431,11 @@
 											<!-- mon -->
 											<td></td>
 											<!-- tue -->
-											<td>
-												<p>[200]Lengthy introduction to alexa. Focus will be on using design patterns in python to enable more complicated interactions with less code!</p>
-											</td>
+											<td></td>
 											<!-- wed -->
-											<td>
-												<p></p>
-											</td>
+											<td></td>
 											<!-- thr -->
-											<td>
-												
-											</td>
+											<td></td>
 											<!-- fri -->
 											<td>
 												<p>Presentations</p>
@@ -435,17 +446,17 @@
 											<!-- time slot -->
 											<td>End of Day</td>
 											<!-- mon -->
-											<td>Students & Instructors</td>
+											<td>Project Progress</td>
 											<!-- tue -->
-											<td>Deck of Cards</td>
+											<td>Project Progress</td>
 											<!-- wed -->
-											<td>NInja Gold</td>
+											<td>Project Progress</td>
 											<!-- thr -->
-											<td>Countries</td>
+											<td>Project Progress</td>
 											<!-- fri -->
-											<td>TO THE WALL!!!</td>
+											<td>Project Presentations</td>
 										</tr>
-
+			
 									</tbody>
 								</table>
 							</div>							
@@ -480,10 +491,10 @@
 							<ul class="collection with-header">
 								<li class="collection-header card-title"><h4>Bootcamp Materials</h4></li>
 								<li class="collection-item"><div>Algorithms<a href="geeksforgeeks.org" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
-								<li class="collection-item"><div>Dojo Overflow<a href="stackoverflow.com" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
+								<li class="collection-item"><div>Dojo Overflow<a href="http://54.213.250.188/" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
 								<li class="collection-item"><div>Project Week Rubric<a href="#!" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
-								<li class="collection-item"><div>Instruction Calendar<a href="#!" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
-								<li class="collection-item"><div>Parking Maps<a href="#!" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
+								<li class="collection-item"><div>Instruction Calendar<a href="https://docs.google.com/spreadsheets/d/1a6CPpPMKmlSdftv50v31h5PEgQTd2Rjx19mXs1dIL_w/edit#gid=153976468" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
+								<li class="collection-item"><div>Parking Maps<a href="https://www.google.com/search?safe=off&q=parking+bellevue&npsic=0&rflfq=1&rlha=0&rllag=47613571,-122195746,158&tbm=lcl&ved=0ahUKEwj-74fXpfnZAhWnwlQKHVJIAz4QtgMIKw&tbs=lrf:!2m1!1e3!3sIAE,lf:1,lf_ui:3&rldoc=1#rlfi=hd:;si:;mv:!1m3!1d6710.444394823243!2d-122.19286943460185!3d47.610938773711744!3m2!1i1888!2i958!4f13.1" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
 								<li class="collection-item"><div>Collab Skillz<a href="https://www.atlassian.com/git/tutorials/syncing" class="secondary-content"><i class="material-icons">stars</i></a></div></li>
 							</ul>
 						</div>			
@@ -511,9 +522,9 @@
 			<section id="olio">
 				<div class="row">
 					<div class="col l4 m6 offset-m3 s12">
-						<div class="card">
+						<div class="card small">
 							<div class="card-image">
-								<img src="https://spartanoracle.com/wp-content/uploads/2016/11/testing.jpg" alt="Testing Picture">
+								<img src="http://www.mrltactics.com/content/images/2017/01/Test_sign.jpg" alt="Testing Picture">
 							</div>
 							<div class="card-content">
 								<span class="card-title">Testing</span>
@@ -523,7 +534,7 @@
 						</div>
 					</div>
 					<div class="col l4 m6 offset-m3 s12">
-						<div class="card">
+						<div class="card small">
 							<div class="card-image">
 								<img src="https://media.shellypalmer.com/wp-content/images/2017/01/Windows-Speech-Recognition-2-Featured-v2-compressor.png" alt="Alexa Image">
 							</div>
@@ -534,7 +545,7 @@
 						</div>							
 					</div>
 					<div class="col l4 m6 offset-m3 s12">
-						<div class="card">
+						<div class="card small">
 							<div class="card-image">
 								<img src="https://3.bp.blogspot.com/--Yv1gSqWe3Q/V-50GhEGx9I/AAAAAAAAHHg/iM6EguKW7mU6vC5vt-URBJNXXjCY_0QMgCEw/s1600/Object%2Boriented%2Bprogramming%2Bconcepts%2Bin%2BJava.jpg" alt="OOP image">
 							</div>
