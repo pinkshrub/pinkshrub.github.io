@@ -1,5 +1,47 @@
 # Project Week
 
+Woooo! Project Week! Project week is an exciting time at the dojo. After weeks of hard work learning new technologies and working through assignments, project week presents an opportunity to grow and learn in a different way. You can look to gain a deeper understanding of the frameworks and languages you've been working with, explore new technologies that excite you, prepare for your portfolio, work with other students accross stacks, or tidy up your skills for exam retakes and black belts. So, whether you are retaking or project-ing, this week has a lot to offer, but you have to be ready to adjust to what you are doing each day. Keep reading for an overview of what is going on during this week and some strategies and resources to be successful.
+
+## Week Schedule
+- Monday
+    - Belted
+        - Work on that project!!!
+    - Un-Belted
+        - Work with others that haven't passed yet to correct your exam. After you've completed an acceptable implementation of the exam, begin working on a project.
+- Tuesday
+    - Belted
+        - Work on that project!!!
+    - Un-Belted
+        - Retake the exam!
+            - Pass:
+                - Start Project
+            - !Pass:
+                - Correct the exam :D
+- Wednesday
+    - Belted
+        - Work on that project!!!
+    - Un-Belted
+        - Work with others that haven't passed yet to correct your exam. After you've completed an acceptable implementation, you should look into helping other teams with small components of their projects, laying out some initial designs for your own project in the future, or start/build on your portfolio site.
+- Thursday
+    - Belted
+        - Work on that project!!!
+        - Put some styling and prettification in!
+    - Un-Belted
+        - Retake the exam!
+            - Pass:
+                - Start Project
+            - !Pass:
+                - Correct the exam :D
+- Friday
+    - Belted
+        - Last touches/deploy issues
+        - Presentations to Stack & Dojo
+    - Un-Belted
+        - if you are 3rd stack & have corrected your 3rd exam, you may retake
+
+## Work on a project!
+
+
 ## Planning philosophies
 - Waterfall
 - AGILE
